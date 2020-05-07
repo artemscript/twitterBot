@@ -11,12 +11,13 @@ By [@droux_aq3d](https://twitter.com/droux_aq3d)
 ## 2. Setup
 
 1. Create a `parent` directory to house this app. Name irrelevant.
-2. Create a `config.py` file that contains a python `dict` called `CONFIG`, with keys `consumer_key`, `consumer_secret`, `access_token_key`, `access_token_secret`, `tweet_id`, `host_user_id`.
-3. The tweet id is in the link of your giveaway tweet. (non yet I assume)
-4. You can find your host user id [here](https://tweeterid.com/)
-5. Your 4 app keys are in the tokens tab of your twitter app's page.
-6. git clone or download and extract this repo inside your `parent` folder. You will now have `parent/twitterBot`.
-7. cd to `parent/twitterBot` and `pip3 install -r requirements.txt`. If you want to use a virtual env go ahead. If you don't know what that is, don't wory.
+2. Create an empty `__init__.py` file. Now forget about it.
+3. Create a `config.py` file that contains a python `dict` called `CONFIG`, with keys `consumer_key`, `consumer_secret`, `access_token_key`, `access_token_secret`, `tweet_id`, `host_user_id`.
+4. The tweet id is in the link of your giveaway tweet. (non yet I assume)
+5. You can find your host user id [here](https://tweeterid.com/)
+6. Your 4 app keys are in the tokens tab of your twitter app's page.
+7. git clone or download and extract this repo inside your `parent` folder. You will now have `parent/twitterBot`.
+8. cd to `parent/twitterBot` and `pip3 install -r requirements.txt`. If you want to use a virtual env go ahead. If you don't know what that is, don't wory.
 
 ## 3a. Running for the first time 
 1. Post a test tweet and retweet it youself. 

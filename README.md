@@ -31,7 +31,7 @@ By [@droux_aq3d](https://twitter.com/droux_aq3d)
 2. Copy its id from the end of the tweet url/link.
 3. Put the tweet id in the `config.py` folder.
 4. Inside the `parent/twitterBot` folder run `python3 twitter_app.py`.
-5. Note: I strongly recommend you use a backend running tool. I personally use `pm2` and I run it with: `pm2 run twitter_app.py --interpreter=python3`.
+5. Note: I strongly recommend you use a backend running tool. I personally use `pm2` and I run it with: `pm2 start twitter_app.py --interpreter=python3`.
 
 ## 4. Drawing a Winner
 Inside the `parent/twitterBot` folder;
